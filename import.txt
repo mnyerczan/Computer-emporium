@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Products>
+    <Product>
+        <Id>123</Id>
+        <Name>Supersecret component</Name>
+        <RelId>321</RelId>
+        <RelId>412</RelId>
+        <!-- ... -->
+    </Product>
+    <Product>
+        <Id>321</Id>
+        <Name>Something additional</Name>
+        <!-- ... -->
+    </Product>
+    <Product>
+        <Id>412</Id>
+        <Name>Extra part</Name>
+        <!-- ... -->
+    </Product>
+    <!-- ... -->
+</Products>
+
+<!-- Készítsen egy konvertáló programot PHP nyelven, mely az alábbi séma alapján az XML bemenetet képes adatbázisba exportálni 
+	 Képes legyen az adatszerkezetet HTML listaként megjeleníteni Product ID, név, és a hozzá tartozó terméknevekkel
+-->
+
+<!-- Választható feladat: Képes legyen a program a következő mintára csv-t is importálni az XML helyett: id,name,relid1,relid2,relid3;... -->
+
+<!-- Az elkészült feldolgozó programot és az adatbázisról készült dump-ot kérnénk az it@computeremporium.hu címre küldeni -->

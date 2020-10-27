@@ -1,0 +1,7 @@
+Started dump at: 2020-10-20 16:27:24
+SHOW MASTER STATUS:
+	Log: binlog.000221
+	Pos: 23880
+	GTID:
+
+Finished dump at: 2020-10-20 16:27:24
